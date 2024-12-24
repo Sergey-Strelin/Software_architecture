@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-10-18T09:23:08.539Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 OPR/103.0.0.0 (Edition Yx 05)" etag="zNrHEvboIRwQQ8dAEpmw" version="22.0.4" type="device">
+  <diagram name="Страница — 1" id="_H_CRrQjKjq68oCE0JQe">
+    <mxGraphModel dx="1007" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r-spYU7C5gEiScYVPd7o-1" value="Connect" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="160" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-2" value="- _connect: Connect" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r-spYU7C5gEiScYVPd7o-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-5" value="- _name_connect: Str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r-spYU7C5gEiScYVPd7o-1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="r-spYU7C5gEiScYVPd7o-1">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-4" value="+ __new__(): Connect" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r-spYU7C5gEiScYVPd7o-1">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-8" value="+ __str__(): Str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="r-spYU7C5gEiScYVPd7o-1">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Паттерн Singletone&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-10" value="Client" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-11" value="new" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="r-spYU7C5gEiScYVPd7o-2">
+          <mxGeometry x="-0.0041" y="-20" width="80" relative="1" as="geometry">
+            <mxPoint x="510" y="210" as="sourcePoint" />
+            <mxPoint x="590" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="210" />
+              <mxPoint x="600" y="149" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-12" value="запрос" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="r-spYU7C5gEiScYVPd7o-1">
+          <mxGeometry x="0.0666" y="-20" width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="120" as="sourcePoint" />
+            <mxPoint x="280" y="120" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r-spYU7C5gEiScYVPd7o-10" target="r-spYU7C5gEiScYVPd7o-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Описание реализации:&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="288" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-15" value="1. Client обращается к классу Connect с запросом на создание нового соединения (экземпляра класса)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="318" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-16" value="2. Функция __new__ класса проверяет есть ли уже соединения и если:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="410" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-17" value="- соединение отсутствует, создаёт новое, присваивая ему переданное имя (_name_connect) и возвращая его Client;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="432" width="670" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-18" value="- соединение уже создано, возвращает Client уже имеющееся соединение не изменяя имя соединения." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="452" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-19" value="- переменная _connect - хранит данные о созданном экземпляре класса Connect (имеющимся соединении)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-20" value="- переменная _name_connect - хранит имя созданного экземпляра соединения" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="356" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r-spYU7C5gEiScYVPd7o-21" value="- функция __str__ оформляет вывод данных о соединении (сообщает его имя)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="460" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
